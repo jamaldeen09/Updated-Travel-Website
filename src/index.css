@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+@layer components{
+  .btnHover{
+    transform: translateY(0px);
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+
+    transition: filter 0.6s ease-in-out,transform 0.6s ease-in-out, color 0.6s ease-in-out, background-color 0.6s ease-in-out;
+  }
+
+  .btnHover:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    filter: brightness(90%);
+    transform: translateY(-8px);
+  }
+}
+
+

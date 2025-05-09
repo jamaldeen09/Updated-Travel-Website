@@ -1,17 +1,10 @@
-// App.js
-import React, { useState } from "react";
-import Header from "./Header";
-import Counter from "./Counter";
+import React from 'react'
+import MovieList from './components/MovieList'
 
 const App = () => {
-  const [name, setName] = useState("John");
-
   return (
-    <div>
-      <Header title={name} />
-      <Counter />
-    </div>
-  );
-};
+    <MovieList />
+  )
+}
 
-export default App;
+export default App

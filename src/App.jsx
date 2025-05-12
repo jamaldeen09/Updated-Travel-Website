@@ -1,9 +1,14 @@
-import React from 'react'
-import MovieList from './components/MovieList'
+import Footer from "./Sections/Footer"
+import HeaderSection from "./Sections/HeaderSection"
+import MainSection from "./Sections/MainSection"
 
 const App = () => {
   return (
-    <MovieList />
+    <>
+      <HeaderSection />
+      <MainSection />
+      <Footer />
+    </>
   )
 }
 

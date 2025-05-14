@@ -7,88 +7,40 @@
 
 /* universal styles */
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Poppins",sans-serif;
 }
 
 /* main styles */
 @layer components{
-  .generalScale{
-    transform: scale(1);
-    transition: transform 0.6s ease-in-out,filter 0.6s ease-in-out;
+  .addButtonEffect{
+    transition: filter 0.6s ease-in-out, transform 0.6s ease-in-out;
   }
-  .generalScale:hover{
-    transform: scale(1.1);
-    filter: brightness(120%);
-    cursor: pointer;
+  .addButtonEffect:hover{
+    transform:scale(1.02);
+    filter: brightness(85%);
   }
-
-  .generalCardEffect{
-    transform: translateY(0px);
-    transition: transform 0.6s ease-in-out,box-shadow 0.6s ease-in-out;
-  }
-  .generalCardEffect:hover{
-    transform: translateY(-10px);
-    box-shadow: 0px 0px 7px #017373;
+  .addButtonEffect:active{
+    filter:brightness(60%);
   }
 
-  .poppins{
-    font-family: "Poppins",sans-serif;
+  .categoryBtn{
+    transition: filter 0.6s ease-in-out,transform 0.6s ease-in-out;
+  }
+  .categoryBtn:hover{
+    transform: scale(1.05);
+    filter: brightness(90%);
+  }
+  .categoryBtn:active{
+    filter: brightness(70%);
   }
 
-  .maxContainer{
-    max-width: 1440px;
-    margin:0 auto;
-  }
-
-  .offcanva{
-    background-color: rgb(0, 26, 12)
-  }
-
-  .offcanvaLi{
-    transition: background-color 0.4s ease-in-out;
-  }
-
-  .txtHeaderbodyColor{
-    color: #04aeae;
-  }
-
-  .textHover{
-    transform: translateY(0px);
-    transition:transform 0.7s ease-in-out;
-  }
-  .textHover:hover{
-    transform: translateY(-10px);
-  }
-  .aquaishDarkSecondary{
-    color:#017373;
-  }
-
-  .img{
+  .iconEffect{
     transition:transform 0.6s ease-in-out;
   }
-  .img:hover{
-    transform: translateY(-10px);
+  .iconEffect:hover{
+    transform:scale(1.1)
   }
-
-  .btnPrices{
-    transition:transform 0.6s ease-in-out,filter 0.6s ease-in-out;
-  }
-  .btnPrices:hover{
-    transform:translateY(-8px);
-    filter: brightness(80%);
-  }
-
-  .card{
-    transition:transform 0.6s ease-in-out;
-  }
-  .card:hover{
-    transform: translateY(-10px);
-  }
-}
-
-body{
-  background-color:black;
 }

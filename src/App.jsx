@@ -1,13 +1,17 @@
-import Footer from "./Sections/Footer"
-import HeaderSection from "./Sections/HeaderSection"
-import MainSection from "./Sections/MainSection"
+// goals
+// have an edit button
+// have a delete button
+// have a filter to filer and see : All tasks, completed tasks, and uncompleted tasks,
+
+import TaskManagement from "./components/TaskManagement"
 
 const App = () => {
   return (
     <>
-      <HeaderSection />
-      <MainSection />
-      <Footer />
+      <div className="min-h-screen bg-gray-100 flex 
+      justify-center py-3">
+        <TaskManagement />
+      </div>
     </>
   )
 }

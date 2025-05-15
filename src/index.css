@@ -10,37 +10,89 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family: "Poppins",sans-serif;
+  font-family:"Poppins",sans-serif;
 }
 
 /* main styles */
 @layer components{
-  .addButtonEffect{
-    transition: filter 0.6s ease-in-out, transform 0.6s ease-in-out;
-  }
-  .addButtonEffect:hover{
-    transform:scale(1.02);
-    filter: brightness(85%);
-  }
-  .addButtonEffect:active{
-    filter:brightness(60%);
+  header{
+    background-image:url(/src/assets/images/Decore.png);
+    background-repeat: no-repeat;
+    background-size:45%;
+    background-position: top right;
   }
 
-  .categoryBtn{
-    transition: filter 0.6s ease-in-out,transform 0.6s ease-in-out;
-  }
-  .categoryBtn:hover{
-    transform: scale(1.05);
-    filter: brightness(90%);
-  }
-  .categoryBtn:active{
-    filter: brightness(70%);
+  .findOutBtn{
+    background-color: #FF9D02;
+    transition:filter 0.6s ease-in-out, transform 0.7s ease-in-out;
   }
 
-  .iconEffect{
+  .findOutBtn:hover{
+    filter:brightness(90%);
+    transform:translateY(-10px);
+  }
+
+  .playBtn{
+    background-color:#DF6951;
+    color:white;
+    transition:transform 0.6s ease-in-out,filter 0.6s ease-in-out;
+  }
+
+  .playBtn:hover{
+    transform:scale(1.09);
+    filter:brightness(90%);
+  }
+
+  .cardhover{
     transition:transform 0.6s ease-in-out;
   }
-  .iconEffect:hover{
-    transform:scale(1.1)
+  .cardhover:hover{
+    transform:translateY(-9px);
+  }
+
+  .hoverPrimary{
+    transition:transform 0.8s ease-in-out;
+  }
+
+  .hoverPrimary:hover{
+    transform: translateY(-15px);
+  }
+
+  .hoverSecondary{
+    transition:transform 0.6s ease-in-out;
+  }
+
+  .hoverSecondary:hover{
+    transform: scale(1.01);
+  }
+
+  .thirdSection{
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .thirdSection:hover{
+    transform: translateY(-20px);
+  }
+
+  .subscribeForm{
+    transition:transform 0.6s ease-in-out;
+    background-color: #e9e4f9;
+    transition:transform 0.6s ease-in-out;
+    background-image:url(/src//assets/images/Mask\ Group.png);
+    background-repeat:repeat-x;
+    background-position:top right;
+  }
+
+  .subscribeForm:hover{
+    transform:translateY(-15px);
+  }
+
+  .subscribeBtn{
+    transition: transform 0.6s ease-in-out,filter 0.6s ease-in-out;
+
+  }
+  .subscribeBtn:hover{
+    transform:scale(1.05);
+    filter:brightness(90%);
   }
 }

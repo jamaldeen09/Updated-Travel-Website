@@ -1,17 +1,13 @@
-// goals
-// have an edit button
-// have a delete button
-// have a filter to filer and see : All tasks, completed tasks, and uncompleted tasks,
-
-import TaskManagement from "./components/TaskManagement"
+import Footer from "./Pages/HomePage/Footer/Footer"
+import Header from "./Pages/HomePage/Header/Header"
+import Main from "./Pages/HomePage/Main/Main"
 
 const App = () => {
   return (
     <>
-      <div className="min-h-screen bg-gray-100 flex 
-      justify-center py-3">
-        <TaskManagement />
-      </div>
+     <Header />
+     <Main />
+     <Footer />
     </>
   )
 }

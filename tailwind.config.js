@@ -17,6 +17,8 @@ module.exports = {
         mid: { max: "1185px", min: "1024px" }, // custom range
         annoying: { max: "1365px", min: "1024px" },
         verySmall: { max:"412px", min: "375px"},
+        ipad: { max:"1372px", min: "1366px" },
+        smTab: { max:"900px", min: "768px" },
       },
     },
   },

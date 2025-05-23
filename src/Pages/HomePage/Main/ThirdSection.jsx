@@ -1,5 +1,5 @@
 import React from "react";
-import Booking from "./components/Booking.JSX";
+import Booking from "./components/Booking.jsx";
 
 const ThirdSection = () => {
   return (

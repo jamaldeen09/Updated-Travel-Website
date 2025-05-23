@@ -16,12 +16,12 @@ const ThirdSection = () => {
 
         <div className="flex flex-col gap-10">
           <Booking
-            url="/src/assets/images/Group 7.png"
+            url="/public/Group 7.png"
             title="Choose Destination"
           />
-          <Booking url="/src/assets/images/Group 12.png" title="Make Payment" />
+          <Booking url="/public/Group 12.png" title="Make Payment" />
           <Booking
-            url="/src/assets/images/Group 11.png"
+            url="/public/Group 11.png"
             title="Reach Airport on Selected Date"
           />
         </div>
@@ -29,7 +29,7 @@ const ThirdSection = () => {
 
       {/* image */}
       <div className="min-w-[1vw] hidden flex min-h-[60vh]  items-end smTab:hidden md:flex justify-end lg:w-full justify-center">
-        <img src="/src/assets/images/Image.png" alt="Awesome Card" className="thirdSection w-full md:max-w-5xl annoying:max-w-lg lg:max-w-2xl "/>
+        <img src="/public/Image.png" alt="Awesome Card" className="thirdSection w-full md:max-w-5xl annoying:max-w-lg lg:max-w-2xl "/>
       </div>
     </section>
   );

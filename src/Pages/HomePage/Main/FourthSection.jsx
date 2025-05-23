@@ -16,7 +16,7 @@ const FourthSection = () => {
 
         {/* image */}
         <div className="flex  annoying:pt-[10rem] max-sm: w-[60vmax] sm:w-[60vmax] md:w-[70vmax] lg:w-full">
-            <img src="/src/assets//images/Group 64.png" alt="" className="w-full cardhover" />
+            <img src="/public/Group 64.png" alt="" className="w-full cardhover" />
         </div>
     </section>
   )

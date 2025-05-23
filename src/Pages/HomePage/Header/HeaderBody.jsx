@@ -46,7 +46,7 @@ const HeaderBody = () => {
 
       {/* image container */}
       <div className="max-sm: hidden mid:hidden sm:hidden lg:flex justify-center items-center">
-          <img src="/src/assets/images/Traveller 1.png" alt="" className="annoying:w-[39vmax] lg:w-[40max]"/>
+          <img src="/public/Traveller 1.png" alt="" className="annoying:w-[39vmax] lg:w-[40max]"/>
       </div>
     </div>
   );

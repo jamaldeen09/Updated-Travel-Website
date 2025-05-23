@@ -16,7 +16,7 @@
 /* main styles */
 @layer components{
   header{
-    background-image:url(/src/assets/images/Decore.png);
+    background-image:url(/public/Decore.png);
     background-repeat: no-repeat;
     background-size:45%;
     background-position: top right;
@@ -78,7 +78,7 @@
     transition:transform 0.6s ease-in-out;
     background-color: #e9e4f9;
     transition:transform 0.6s ease-in-out;
-    background-image:url(/src//assets/images/Mask\ Group.png);
+    background-image:url(public/Mask\ Group.png);
     background-repeat:repeat-x;
     background-position:top right;
   }

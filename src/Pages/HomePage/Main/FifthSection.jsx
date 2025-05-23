@@ -6,7 +6,7 @@ const FifthSection = () => {
     
         <div className="">
           <img
-            src="/public/image 27.png"
+            src="/image%2027.png"
             alt=""
             className="cardhover max-sm: w-[7vmax] sm:w-[8vmax] lg:w-[8vmax]"
           />
@@ -14,7 +14,7 @@ const FifthSection = () => {
 
         <div className="">
           <img
-            src="/public/image 28.png"
+            src="/image%2028.png"
             alt=""
             className="cardhover  max-sm: w-[7vmax] sm:w-[8vmax]  lg:w-[8vmax]"
           />
@@ -26,7 +26,7 @@ const FifthSection = () => {
 
         <div className="">
           <img
-            src="/public/image 30.png"
+            src="/image%2030.png"
             alt=""
             className="cardhover  max-sm: w-[7vmax]  sm:w-[10vmax] lg:w-[8vmax]"
           />
@@ -34,7 +34,7 @@ const FifthSection = () => {
 
         <div className="">
           <img
-            src="/public/image 31.png"
+            src="/image%2031.png"
             alt=""
             className="cardhover  max-sm: w-[7vmax]  sm:w-[10vmax] lg:w-[8vmax]"
           />

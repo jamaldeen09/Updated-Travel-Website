@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="flex space-x-3  items-center justify-center">
               <div className="bg-black text-white flex items-center rounded-xl px-3 py-2 space-x-2">
                 <img
-                  src="/public/google-play 1.png"
+                  src="/google-play%201.png"
                   alt=""
                   className=""
                 />

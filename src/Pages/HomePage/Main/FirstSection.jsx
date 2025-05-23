@@ -21,7 +21,7 @@ const FirstSection = () => {
           {/* first card */}
 
           <div className="cardhover flex flex-col justify-center items-center px-5 gap-4">
-             <img src={"/public/Group 48.png"} alt="Weather Image"/>
+             <img src={"/Group%2048.png"} alt="Weather Image"/>
 
              <div className="flex justify-center flex-col items-center gap-3 text-center">
                 <h3 className="font-bold text-lg">Calculated Weather</h3>
@@ -34,7 +34,7 @@ const FirstSection = () => {
 
           {/* second card */}
           <div className="cardhover flex flex-col justify-center items-center  px-[4.4rem] bg-white shadow-xl rounded-3xl py-8">
-             <img src={"/public/Group.png"} alt="Plane Image" className="w-[6rem]"/>
+             <img src={"/Group.png"} alt="Plane Image" className="w-[6rem]"/>
 
              <div className="flex justify-center flex-col items-center gap-3 text-center">
                 <h3 className="font-bold text-lg">Best Flights</h3>
@@ -47,7 +47,7 @@ const FirstSection = () => {
 
           {/* third card */}
           <div className="cardhover flex flex-col justify-center items-center px-5 gap-4">
-             <img src={"/public/Group 50.png"} alt="Plane Image"/>
+             <img src={"/Group%2050.png"} alt="Plane Image"/>
 
              <div className="flex justify-center flex-col items-center gap-3 text-center">
                 <h3 className="font-bold text-lg">Local Events</h3>
@@ -60,7 +60,7 @@ const FirstSection = () => {
 
           {/* fourth card */}
           <div className="cardhover flex flex-col justify-center items-center px-5 gap-4">
-             <img src={"/public/Group 49.png"} alt="Plane Image"/>
+             <img src={"/Group%2049.png"} alt="Plane Image"/>
 
              <div className="flex justify-center flex-col items-center gap-3 text-center">
                 <h3 className="font-bold text-lg">Customization</h3>
